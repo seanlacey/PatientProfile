@@ -1,6 +1,5 @@
 controlbar <- 
-  bs4DashControlbar(br(),br(),br(),
-                    pickerInput("subjid","Select Subject:",
+  bs4DashControlbar(pickerInput("subjid","Select Subject:",
                                 choices=c("Select Subject...",pull(pdata[["subjects"]],"subjid")), 
                                 options = list(size = 10),
                                 multiple=FALSE),
