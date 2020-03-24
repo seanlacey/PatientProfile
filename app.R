@@ -94,7 +94,7 @@ server <- function(input, output, session) {
   callModule(DTModule,"ae",subj=subj,dset=pdata,dname="ae",
              vlist=c("aeid","aename","aedate","related","grade"),
              vname=c("ID","Preferred Term",
-                     "Start Date<br>End Date","JTX Relatedness",
+                     "Start Date<br>End Date","Relatedness",
                      "Grade"),
              lab=TRUE,
              columnDefs=list(list(width="15%",targets=c(2))),

@@ -67,7 +67,7 @@ about_tab <- bs4TabItem(
               fluidRow(column(1,icon("info"),align="center"),column(2,tags$b("About:")),column(9,"The current page.")),
               fluidRow(column(1,icon("user"),align="center"),column(2,tags$b("Overview:")),column(9,"Highlight of important demographics, dosing, and disease information.")),
               fluidRow(column(1,icon("calendar-alt"),align="center"),column(2,tags$b("History:")),column(9,"Disease History, Medical History, Prior Surgery, Prior Radiotherapy, and Prior Systemic Therapies")),
-              fluidRow(column(1,icon("syringe"),align="center"),column(2,tags$b("Dosing:")),column(9,"Vopratelimab, Nivolumab, Ipilimumab, and Pembrolizumab Exposure")),
+              fluidRow(column(1,icon("syringe"),align="center"),column(2,tags$b("Dosing:")),column(9,"Exposure")),
               fluidRow(column(1,icon("prescription-bottle"),align="center"),column(2,tags$b("Concomitant:")),column(9,"Concomitant Medications")),
               fluidRow(column(1,icon("file-medical"),align="center"),column(2,tags$b("Adverse Events:")),column(9,"Adverse Events")),
               fluidRow(column(1,icon("vial"),align="center"),column(2,tags$b("Labs:")),column(9,"Chemistry, Coagulation, Hematology, and Urinalysis")),
