@@ -1,0 +1,83 @@
+/****** Header ******/
+@import url('https://fonts.googleapis.com/css?family=Lato:700|Open+Sans');
+
+/****** Navigation Bar ******/
+#nav_help {
+  font-weight: 400;
+	line-height: 250%;
+}
+
+#nav_subj {
+	font-weight: 400;
+}
+
+.nav-link.active {
+  background-color: #92374D !important;
+}
+
+.btn-light {
+  border:1px solid black;
+}
+
+/******Font Awesome Icons ******/
+.fa-user-circle,.fa-bars {
+	color: #000000;
+}
+
+.card-jounce .fa-minus, .card-jounce .fa-plus {
+	color: #FFFFFF;
+}
+
+.card-jounce .fa-minus:hover, .card-jounce .fa-plus:hover {
+	color: #B7B7B7;
+}
+
+/****** Main content ******/
+* {
+	font-family: 'Open-Sans', sans-serif;
+}
+
+#card_subj td, 
+#card_demo td, 
+#card_dose td,
+#card_char td,
+#card_eot td,
+#card_eos td {
+	border:1px solid white;
+}
+
+.card-jounce .card-header {
+	background-color: #92374D;
+	color: #FFFFFF;
+}
+
+.card-jounce .card-header a {
+  color: #FFFFFF;
+}
+
+.card-jounce .card-header a:hover {
+  color: #F2F2F2;
+}
+
+.card-jounce .card-body {
+	background-color: #FFFFFF;
+	color: #000000;
+}
+
+.card-jounce2 .card-header {
+	background-color: #662E9B;
+	color: #FFFFFF;
+}
+
+.card-jounce2 .card-header a {
+  color: #FFFFFF;
+}
+
+.card-jounce2 .card-header a:hover {
+  color: #F2F2F2;
+}
+
+.card-jounce2 .card-body {
+	background-color: #FFFFFF;
+	color: #000000;
+}
